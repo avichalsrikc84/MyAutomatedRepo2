@@ -52,3 +52,15 @@ There is a need for an automated solution that:
 
 ## 📂 Repository Structure
 
+MyAutomatedRepo2/
+│
+├── init_git.sh # Initializes Git repository
+├── create_repo.sh # Creates GitHub repository using CLI
+├── branch_manager.sh # Manages branches
+├── commit_push.sh # Automates commit and push
+│
+├── .github/
+│ └── workflows/
+│ └── ci.yml # GitHub Actions CI workflow
+│
+└── README.md # Project documentation
